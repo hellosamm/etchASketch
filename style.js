@@ -8,5 +8,10 @@ for (let i = 0; i < 16; i++) {
   }
 }
 
-const eachCell = document.querySelectorAll(".cell");
-eachCell.addEventListener("hover", function () {});
+const individualCells = document.querySelectorAll(".cell");
+
+individualCells.forEach((cell) => {
+  cell.addEventListener("mouseenter", (e) => {
+    cell.style.backgroundColor = "#000";
+  });
+});
