@@ -9,10 +9,15 @@
   <body>
     <div class="header">
       <div class="title"><h1>etch a sketch</h1></div>
-      <div class="buttons">
+      <div class="toolBar">
         <button class="button" id="restart">restart</button>
         <button class="button" id="changeColor">change color</button>
-        <button class="button" id="boardSize">board size</button>
+        <div id="circle"></div>
+        <div class="slidecontainer">
+          <div><span id="sliderText">16</span></div>
+          <input type="range" id="slider" min="16" max="50" value="16" >
+        </div>
+        </div>
       </div>
     </div>
     <div class="content">
