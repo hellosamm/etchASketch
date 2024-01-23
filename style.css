@@ -4,7 +4,7 @@
   flex-wrap: wrap;
   width: 600px;
   height: 600px;
-  border: 4px solid black;
+  border: 3px solid black;
 }
 
 /* calculating the 16x16 grid */
@@ -21,10 +21,10 @@
 /* style the title- "etch a sketch"*/
 .header {
   display: flex;
-  font-family: "Courier New", Courier, monospace;
   flex-direction: column;
   align-items: center;
   padding-bottom: 15px;
+  font-family: "Roboto", sans-serif;
 }
 
 /* align grid in the center */
@@ -35,16 +35,18 @@
 
 /* style for the header buttons */
 .button {
-  background-color: rgb(177, 177, 177);
-  color: white;
+  background-color: lightgray;
+  color: black;
   border: none;
-  padding: 15px 32px;
+  padding: 12px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
   margin: 4px 2px;
   cursor: pointer;
+  font-family: "Roboto", sans-serif;
+  border-radius: 50px;
 }
 
 /* colorful circle */
