@@ -5,25 +5,32 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" type"text/css" href="style.css" />
     <title>etchASketch</title>
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&family=Poppins&family=Roboto:ital,wght@0,100;0,300;0,400;1,400&display=swap" rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&family=Poppins&family=Roboto:ital,wght@0,100;0,300;0,400;1,400&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
-    <div class="header">
-      <div class="title"><h1>etch a sketch</h1></div>
-      <div class="toolBar">
-        <button class="button" id="restart">restart</button>
-        <button class="button" id="changeColor">change color</button>
-        <div id="circle"></div>
-        <div class="slidecontainer">
-          <div><span id="sliderText">16</span></div>
-          <input type="range" id="slider" min="16" max="50" value="16" >
-        </div>
+    <div class="background">
+      <div class="header">
+        <div class="title"><h1>etch a sketch</h1></div>
+        <div class="toolBar">
+          <button class="button" id="restart">restart</button>
+          <button class="button" id="changeColor">change color</button>
+          <div id="circle"></div>
+          <div class="slidecontainer">
+            <div><span id="sliderText">16</span></div>
+            <input type="range" id="slider" min="16" max="50" value="16" />
+          </div>
         </div>
       </div>
+      <div class="content">
+        <div class="board">
+          <div class="twistKnob"></div>
+          <div class="twistKnob"></div>
+        </div>
+      </div>
+      <script src="style.js"></script>
     </div>
-    <div class="content">
-      <div class="board"></div>
-    </div>
-    <script src="style.js"></script>
   </body>
 </html>

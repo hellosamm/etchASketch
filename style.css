@@ -81,3 +81,15 @@
 input[type="range"] {
   width: 100%;
 }
+
+/* .background {
+  background-color: rgb(207, 3, 3);
+} */
+
+.board {
+  background-color: rgb(246, 246, 246);
+  border-color: rgb(207, 3, 3);
+  border-width: 50px;
+  border-bottom-width: 100px;
+  border-radius: 20px;
+}
